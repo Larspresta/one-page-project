@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+
     display: flex;
     background-color: #ff5943;
     padding: 5px 30px;
@@ -21,6 +22,7 @@ body {
     justify-content: space-between; 
     align-items: center;
     color: #ffffff;
+
 }
 
 .logo {
@@ -50,12 +52,62 @@ a {
 .main {
     display: flex;
     justify-content: center;
+    border: 2px solid black; /*remove, for debugging*/
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero-img img {
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 30px; 
+    background: #ff5943;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-button button {
+    color: white;
+    
+}
+
+.cta-container button {
+    color: white;
+    
 }
 
 .info {
     display: flex;
+    border: 2px solid black; /*remove, for debugging*/
 
 }
 .card img {
     width: 150px;
+}
+
+.quote {
+    border: 2px solid black; /*remove, for debugging*/
+
+}
+
+.call {
+    border: 2px solid black; /*remove, for debugging*/
+
 }
