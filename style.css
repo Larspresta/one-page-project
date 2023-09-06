@@ -17,7 +17,6 @@ body {
 
 .navigation {
     flex: 1;
-    border: 2px solid white; /* remove, only for styling*/ 
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -52,7 +51,7 @@ a {
 .main {
     display: flex;
     justify-content: center;
-    border: 2px solid black; /*remove, for debugging*/
+    margin-bottom: 40px;
 }
 
 .hero {
@@ -93,13 +92,34 @@ button {
     
 }
 
-.info {
-    display: flex;
-    border: 2px solid black; /*remove, for debugging*/
-    
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
 }
+
+.information {
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    max-width: 200px;
+    padding: 25px;
+    border: 2px solid #ff5943;
+    border-radius: 15px;
+    background-color: #fff1f0;
+}
+
 .card img {
     width: 150px;
+
 }
 
 .quote {
