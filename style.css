@@ -1,6 +1,5 @@
 body {
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
     font-family: roboto, sans-serif;
     margin: 0;
     display: flex;
@@ -9,7 +8,7 @@ body {
 }
 
 .header {
-
+    margin-bottom: 60px;
     display: flex;
     background-color: #ff5943;
     padding: 5px 30px;
@@ -100,6 +99,7 @@ button {
 }
 
 .information {
+    margin-bottom: 60px;
 
 }
 
@@ -123,11 +123,36 @@ button {
 }
 
 .quote {
-    border: 2px solid black; /*remove, for debugging*/
+    /*remove, for debugging*/
+    border: 2px solid black;
+    background-color: #edfcf2;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
 
+.quote-text {
+    font-size: 36px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+}
+
+.testamonial {
+    font-style: italic;
+    padding: 20px;
+    line-height: 130%;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: 700;
 }
 
 .call {
-    border: 2px solid black; /*remove, for debugging*/
-
+    /*remove, for debugging*/
+    border: 2px solid black; 
 }
