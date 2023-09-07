@@ -8,10 +8,10 @@ body {
 }
 
 .header {
-    margin-bottom: 60px;
+
     display: flex;
     background-color: #ff5943;
-    padding: 5px 30px;
+    padding: 5px 30px 40px;
 }
 
 .navigation {
@@ -50,7 +50,10 @@ a {
 .main {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    background-color: #ff5943;
+    color: #ffffff;
+    margin-bottom: 60px;
 }
 
 .hero {
@@ -72,23 +75,36 @@ p {
     font-size: 20px;
 }
 
-button {
+.hero-button {
     font-size: 20px;
     font-weight: 900;
-    padding: 10px 30px; 
-    background: #ff5943;
+    padding: 10px 15px; 
+    background: #1aa515;
     border: none;
     border-radius: 10px;
-}
-
-.hero-button button {
+    transition-duration: 0.3s;
+    width: 140px;
+    text-align: center;
     color: white;
-    
+    border: 1px solid #8be7a2;
 }
 
-.cta-container button {
+.hero-button:hover, .cta-button:hover {
+    background-color: #0a8a06;
+}
+
+
+.cta-button {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 15px;
     color: white;
     border: 2px solid #ffffff;
+    background: #1aa515;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    width: 140px;
+    text-align: center;
 }
 
 .info-title {
@@ -110,16 +126,20 @@ button {
 }
 
 .card {
+
     max-width: 200px;
-    padding: 25px;
+
+}
+
+.berry-text {
+    font-size: 18px;
+}
+.card img {
+    width: 150px;
+    padding: 20px;
     border: 2px solid #ff5943;
     border-radius: 15px;
     background-color: #fff1f0;
-}
-
-.card img {
-    width: 150px;
-
 }
 
 .quote {
@@ -159,7 +179,7 @@ button {
 }
 
 .cta-container {
-    background-color: #ff5943;
+    background-color: #1aa515;
     display: flex;
     justify-content:space-around;
     align-items: center;
